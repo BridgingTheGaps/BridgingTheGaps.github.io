@@ -16,6 +16,7 @@
     <script src="js/skel.min.js"></script>
     <script src="js/skel-layers.min.js"></script>
     <script src="js/init.js"></script>
+
     <noscript>
         <link rel="stylesheet" href="css/skel.css"/>
         <link rel="stylesheet" href="css/style.css"/>
@@ -199,13 +200,9 @@
                 </section>
                 <hr/>
                 <section>
-                    <h3>Ante sed commodo</h3>
-                    <ul class="alt">
-                        <li><a href="#">Erat blandit risus vis adipiscing</a></li>
-                        <li><a href="#">Tempus ultricies faucibus amet</a></li>
-                        <li><a href="#">Arcu commodo non adipiscing quis</a></li>
-                        <li><a href="#">Accumsan vis lacinia semper</a></li>
-                    </ul>
+                    <div class="fb-like-box" data-href="https://www.facebook.com/bridgethegapsyouthcamps?"
+                         data-width="300" data-height="400" data-colorscheme="light" data-show-faces="true"
+                         data-header="false" data-stream="true" data-show-border="false"></div>
                 </section>
             </div>
         </div>
@@ -246,7 +243,7 @@
                     aliquet.</p>
                 <ul class="icons">
                     <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.facebook.com/bridgethegapsyouthcamps" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
                     <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
                     <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
                     <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
@@ -260,6 +257,14 @@
         </ul>
     </div>
 </footer>
-
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=329990093867847&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
