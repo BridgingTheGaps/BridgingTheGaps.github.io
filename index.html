@@ -62,7 +62,7 @@
     </header>
     <div class="container">
         <div class="align-center">
-            <iframe src="http://mapbuildr.com/frame/very28" frameborder="0" height="500" width="500"></iframe>
+            <div id="locations"></div>
         </div>
     </div>
 </section>
@@ -227,8 +227,30 @@
 <script src="js/init.js"></script>
 <script src="js/ScrollMagic.min.js"></script>
 <script src="js/main.js"></script>
-
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDRSd_gWhggmmhYooxjm2pk8q1We-BPIKs&sensor=false&extension=.js'></script>
+<script src="js/map.js" ></script>
 <div id="fb-root"></div>
+<style>
+    #locations {
+        height: 500px;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .gm-style-iw * {
+        display: block;
+        width: 100%;
+    }
+
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gm-style-iw a {
+        color: #4272db;
+    }
+</style>
 
 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
