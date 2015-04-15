@@ -21,7 +21,17 @@ function init() {
     var mapElement = document.getElementById('locations');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
-        ['Chennai', 'undefined', 'undefined', 'undefined', 'undefined', 13.0826802, 80.2707184, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Auroville', 'undefined', 'undefined', 'undefined', 'undefined', 12.006944, 79.810556, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Bangalore', 'undefined', 'undefined', 'undefined', 'undefined', 12.9715987, 77.5945627, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Mysore', 'undefined', 'undefined', 'undefined', 'undefined', 12.2958104, 76.6393805, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Ahemedabad', 'May 21-25 2015', 'undefined', 'undefined', 'undefined', 23.022505, 72.5713621, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Surat', 'undefined', 'undefined', 'undefined', 'undefined', 21.1702401, 72.8310607, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Pune', 'undefined', 'undefined', 'undefined', 'undefined', 18.5204303, 73.8567437, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Bhopal', 'undefined', 'undefined', 'undefined', 'undefined', 23.2599333, 77.412615, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Hyderabad', 'undefined', 'undefined', 'undefined', 'undefined', 17.385044, 78.486671, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Kundapura', 'undefined', 'undefined', 'undefined', 'undefined', 13.6315963, 74.6899917, 'https://mapbuildr.com/assets/img/markers/default.png'], ['Gudalur', 'undefined', 'undefined', 'undefined', 'undefined', 11.152778, 76.926389, 'https://mapbuildr.com/assets/img/markers/default.png']
+        ['Chennai', 'undefined', 'undefined', 'undefined', 'undefined', 13.0826802, 80.2707184, 'images/mapmarker.png'],
+        ['Auroville', 'undefined', 'undefined', 'undefined', 'undefined', 12.006944, 79.810556, 'images/mapmarker.png'],
+        ['Bangalore', 'undefined', 'undefined', 'undefined', 'undefined', 12.9715987, 77.5945627, 'images/mapmarker.png'],
+        ['Mysore', 'undefined', 'undefined', 'undefined', 'undefined', 12.2958104, 76.6393805, 'images/mapmarker.png'],
+        ['Ahemedabad', 'May 21-25 2015', 'undefined', 'undefined', 'undefined', 23.022505, 72.5713621, 'images/mapmarker.png'],
+        ['Surat', 'undefined', 'undefined', 'undefined', 'undefined', 21.1702401, 72.8310607, 'images/mapmarker.png'],
+        ['Pune', 'undefined', 'undefined', 'undefined', 'undefined', 18.5204303, 73.8567437, 'images/mapmarker.png'],
+        ['Bhopal', 'undefined', 'undefined', 'undefined', 'undefined', 23.2599333, 77.412615, 'images/mapmarker.png'],
+        ['Hyderabad', 'undefined', 'undefined', 'undefined', 'undefined', 17.385044, 78.486671, 'images/mapmarker.png'],
+        ['Kundapura', 'undefined', 'undefined', 'undefined', 'undefined', 13.6315963, 74.6899917, 'images/mapmarker.png'],
+        ['Gudalur', 'undefined', 'undefined', 'undefined', 'undefined', 11.152778, 76.926389, 'images/mapmarker.png']
     ];
     for (i = 0; i < locations.length; i++) {
         if (locations[i][1] == 'undefined') {
