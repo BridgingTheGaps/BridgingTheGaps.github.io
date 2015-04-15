@@ -2,7 +2,7 @@ google.maps.event.addDomListener(window, 'load', init);
 var map;
 function init() {
     var mapOptions = {
-        center: new google.maps.LatLng(16.993755, 80.328368),
+        center: new google.maps.LatLng(20.817741, 77.427977),
         zoom: 5,
         zoomControl: false,
         disableDoubleClickZoom: true,
@@ -14,10 +14,10 @@ function init() {
         draggable: true,
         overviewMapControl: true,
         overviewMapControlOptions: {
-            opened: false,
+            opened: false
         },
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-    }
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
     var mapElement = document.getElementById('locations');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
